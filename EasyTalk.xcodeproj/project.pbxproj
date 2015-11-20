@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95F0C4C31BFFC4F900138859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4C21BFFC4F900138859 /* main.m */; };
+		95F0C4C61BFFC4F900138859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4C51BFFC4F900138859 /* AppDelegate.m */; };
+		95F0C4C91BFFC4F900138859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4C81BFFC4F900138859 /* ViewController.m */; };
+		95F0C4CC1BFFC4F900138859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4CA1BFFC4F900138859 /* Main.storyboard */; };
+		95F0C4CE1BFFC4F900138859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4CD1BFFC4F900138859 /* Assets.xcassets */; };
+		95F0C4D11BFFC4F900138859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4CF1BFFC4F900138859 /* LaunchScreen.storyboard */; };
+		95F0C4D61BFFC4F900138859 /* EasyTalk WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 95F0C4D51BFFC4F900138859 /* EasyTalk WatchKit App.app */; };
+		95F0C4DC1BFFC4F900138859 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4DA1BFFC4F900138859 /* Interface.storyboard */; };
+		95F0C4DE1BFFC4F900138859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4DD1BFFC4F900138859 /* Assets.xcassets */; };
+		95F0C4E51BFFC4F900138859 /* EasyTalk WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95F0C4E41BFFC4F900138859 /* EasyTalk WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95F0C4ED1BFFC4F900138859 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4EC1BFFC4F900138859 /* InterfaceController.m */; };
+		95F0C4F01BFFC4F900138859 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4EF1BFFC4F900138859 /* ExtensionDelegate.m */; };
+		95F0C4F31BFFC4F900138859 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4F21BFFC4F900138859 /* NotificationController.m */; };
+		95F0C4F51BFFC4F900138859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4F41BFFC4F900138859 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F0C4D71BFFC4F900138859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F0C4B61BFFC4F900138859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F0C4D41BFFC4F900138859;
+			remoteInfo = "EasyTalk WatchKit App";
+		};
+		95F0C4E61BFFC4F900138859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F0C4B61BFFC4F900138859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F0C4E31BFFC4F900138859;
+			remoteInfo = "EasyTalk WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95F0C4FC1BFFC4F900138859 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				95F0C4E51BFFC4F900138859 /* EasyTalk WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F0C5001BFFC4F900138859 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				95F0C4D61BFFC4F900138859 /* EasyTalk WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95F0C4BE1BFFC4F900138859 /* EasyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F0C4C21BFFC4F900138859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F0C4C41BFFC4F900138859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95F0C4C51BFFC4F900138859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95F0C4C71BFFC4F900138859 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95F0C4C81BFFC4F900138859 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95F0C4CB1BFFC4F900138859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F0C4CD1BFFC4F900138859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F0C4D01BFFC4F900138859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F0C4D21BFFC4F900138859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F0C4D51BFFC4F900138859 /* EasyTalk WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyTalk WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F0C4DB1BFFC4F900138859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		95F0C4DD1BFFC4F900138859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F0C4DF1BFFC4F900138859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F0C4E41BFFC4F900138859 /* EasyTalk WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EasyTalk WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F0C4EA1BFFC4F900138859 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		95F0C4EB1BFFC4F900138859 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		95F0C4EC1BFFC4F900138859 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		95F0C4EE1BFFC4F900138859 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		95F0C4EF1BFFC4F900138859 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		95F0C4F11BFFC4F900138859 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		95F0C4F21BFFC4F900138859 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		95F0C4F41BFFC4F900138859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F0C4F61BFFC4F900138859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F0C4BB1BFFC4F900138859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F0C4E11BFFC4F900138859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95F0C4B51BFFC4F900138859 = {
+			isa = PBXGroup;
+			children = (
+				95F0C4C01BFFC4F900138859 /* EasyTalk */,
+				95F0C4D91BFFC4F900138859 /* EasyTalk WatchKit App */,
+				95F0C4E81BFFC4F900138859 /* EasyTalk WatchKit Extension */,
+				95F0C4BF1BFFC4F900138859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F0C4BF1BFFC4F900138859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C4BE1BFFC4F900138859 /* EasyTalk.app */,
+				95F0C4D51BFFC4F900138859 /* EasyTalk WatchKit App.app */,
+				95F0C4E41BFFC4F900138859 /* EasyTalk WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F0C4C01BFFC4F900138859 /* EasyTalk */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C4C41BFFC4F900138859 /* AppDelegate.h */,
+				95F0C4C51BFFC4F900138859 /* AppDelegate.m */,
+				95F0C4C71BFFC4F900138859 /* ViewController.h */,
+				95F0C4C81BFFC4F900138859 /* ViewController.m */,
+				95F0C4CA1BFFC4F900138859 /* Main.storyboard */,
+				95F0C4CD1BFFC4F900138859 /* Assets.xcassets */,
+				95F0C4CF1BFFC4F900138859 /* LaunchScreen.storyboard */,
+				95F0C4D21BFFC4F900138859 /* Info.plist */,
+				95F0C4C11BFFC4F900138859 /* Supporting Files */,
+			);
+			path = EasyTalk;
+			sourceTree = "<group>";
+		};
+		95F0C4C11BFFC4F900138859 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C4C21BFFC4F900138859 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95F0C4D91BFFC4F900138859 /* EasyTalk WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C4DA1BFFC4F900138859 /* Interface.storyboard */,
+				95F0C4DD1BFFC4F900138859 /* Assets.xcassets */,
+				95F0C4DF1BFFC4F900138859 /* Info.plist */,
+			);
+			path = "EasyTalk WatchKit App";
+			sourceTree = "<group>";
+		};
+		95F0C4E81BFFC4F900138859 /* EasyTalk WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C4EB1BFFC4F900138859 /* InterfaceController.h */,
+				95F0C4EC1BFFC4F900138859 /* InterfaceController.m */,
+				95F0C4EE1BFFC4F900138859 /* ExtensionDelegate.h */,
+				95F0C4EF1BFFC4F900138859 /* ExtensionDelegate.m */,
+				95F0C4F11BFFC4F900138859 /* NotificationController.h */,
+				95F0C4F21BFFC4F900138859 /* NotificationController.m */,
+				95F0C4F41BFFC4F900138859 /* Assets.xcassets */,
+				95F0C4F61BFFC4F900138859 /* Info.plist */,
+				95F0C4E91BFFC4F900138859 /* Supporting Files */,
+			);
+			path = "EasyTalk WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		95F0C4E91BFFC4F900138859 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C4EA1BFFC4F900138859 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F0C4BD1BFFC4F900138859 /* EasyTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F0C5011BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk" */;
+			buildPhases = (
+				95F0C4BA1BFFC4F900138859 /* Sources */,
+				95F0C4BB1BFFC4F900138859 /* Frameworks */,
+				95F0C4BC1BFFC4F900138859 /* Resources */,
+				95F0C5001BFFC4F900138859 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F0C4D81BFFC4F900138859 /* PBXTargetDependency */,
+			);
+			name = EasyTalk;
+			productName = EasyTalk;
+			productReference = 95F0C4BE1BFFC4F900138859 /* EasyTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F0C4D41BFFC4F900138859 /* EasyTalk WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F0C4FD1BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk WatchKit App" */;
+			buildPhases = (
+				95F0C4D31BFFC4F900138859 /* Resources */,
+				95F0C4FC1BFFC4F900138859 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F0C4E71BFFC4F900138859 /* PBXTargetDependency */,
+			);
+			name = "EasyTalk WatchKit App";
+			productName = "EasyTalk WatchKit App";
+			productReference = 95F0C4D51BFFC4F900138859 /* EasyTalk WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		95F0C4E31BFFC4F900138859 /* EasyTalk WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F0C4F91BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk WatchKit Extension" */;
+			buildPhases = (
+				95F0C4E01BFFC4F900138859 /* Sources */,
+				95F0C4E11BFFC4F900138859 /* Frameworks */,
+				95F0C4E21BFFC4F900138859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyTalk WatchKit Extension";
+			productName = "EasyTalk WatchKit Extension";
+			productReference = 95F0C4E41BFFC4F900138859 /* EasyTalk WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F0C4B61BFFC4F900138859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chips&Chips";
+				TargetAttributes = {
+					95F0C4BD1BFFC4F900138859 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					95F0C4D41BFFC4F900138859 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					95F0C4E31BFFC4F900138859 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 95F0C4B91BFFC4F900138859 /* Build configuration list for PBXProject "EasyTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F0C4B51BFFC4F900138859;
+			productRefGroup = 95F0C4BF1BFFC4F900138859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F0C4BD1BFFC4F900138859 /* EasyTalk */,
+				95F0C4D41BFFC4F900138859 /* EasyTalk WatchKit App */,
+				95F0C4E31BFFC4F900138859 /* EasyTalk WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F0C4BC1BFFC4F900138859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0C4D11BFFC4F900138859 /* LaunchScreen.storyboard in Resources */,
+				95F0C4CE1BFFC4F900138859 /* Assets.xcassets in Resources */,
+				95F0C4CC1BFFC4F900138859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F0C4D31BFFC4F900138859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0C4DE1BFFC4F900138859 /* Assets.xcassets in Resources */,
+				95F0C4DC1BFFC4F900138859 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F0C4E21BFFC4F900138859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0C4F51BFFC4F900138859 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F0C4BA1BFFC4F900138859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0C4C91BFFC4F900138859 /* ViewController.m in Sources */,
+				95F0C4C61BFFC4F900138859 /* AppDelegate.m in Sources */,
+				95F0C4C31BFFC4F900138859 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F0C4E01BFFC4F900138859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0C4F01BFFC4F900138859 /* ExtensionDelegate.m in Sources */,
+				95F0C4ED1BFFC4F900138859 /* InterfaceController.m in Sources */,
+				95F0C4F31BFFC4F900138859 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F0C4D81BFFC4F900138859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F0C4D41BFFC4F900138859 /* EasyTalk WatchKit App */;
+			targetProxy = 95F0C4D71BFFC4F900138859 /* PBXContainerItemProxy */;
+		};
+		95F0C4E71BFFC4F900138859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F0C4E31BFFC4F900138859 /* EasyTalk WatchKit Extension */;
+			targetProxy = 95F0C4E61BFFC4F900138859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F0C4CA1BFFC4F900138859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F0C4CB1BFFC4F900138859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F0C4CF1BFFC4F900138859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F0C4D01BFFC4F900138859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		95F0C4DA1BFFC4F900138859 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F0C4DB1BFFC4F900138859 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F0C4F71BFFC4F900138859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95F0C4F81BFFC4F900138859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F0C4FA1BFFC4F900138859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EasyTalk WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsandchips.EasyTalk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		95F0C4FB1BFFC4F900138859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EasyTalk WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsandchips.EasyTalk.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		95F0C4FE1BFFC4F900138859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = EasyTalk_WatchKit_Extension;
+				INFOPLIST_FILE = "EasyTalk WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsandchips.EasyTalk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		95F0C4FF1BFFC4F900138859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = EasyTalk_WatchKit_Extension;
+				INFOPLIST_FILE = "EasyTalk WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsandchips.EasyTalk.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		95F0C5021BFFC4F900138859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsandchips.EasyTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95F0C5031BFFC4F900138859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chipsandchips.EasyTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F0C4B91BFFC4F900138859 /* Build configuration list for PBXProject "EasyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F0C4F71BFFC4F900138859 /* Debug */,
+				95F0C4F81BFFC4F900138859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F0C4F91BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F0C4FA1BFFC4F900138859 /* Debug */,
+				95F0C4FB1BFFC4F900138859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95F0C4FD1BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F0C4FE1BFFC4F900138859 /* Debug */,
+				95F0C4FF1BFFC4F900138859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95F0C5011BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F0C5021BFFC4F900138859 /* Debug */,
+				95F0C5031BFFC4F900138859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F0C4B61BFFC4F900138859 /* Project object */;
+}
