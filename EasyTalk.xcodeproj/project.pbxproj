@@ -7,9 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B641951C634CA400DA8ABA /* AddGroupingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B641901C634CA400DA8ABA /* AddGroupingViewController.m */; };
+		60B641961C634CA400DA8ABA /* AddWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B641921C634CA400DA8ABA /* AddWordViewController.m */; };
+		60B641971C634CA400DA8ABA /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B641941C634CA400DA8ABA /* FavoriteViewController.m */; };
+		9501EFA61C0E550100ABDE14 /* WKInterfaceController+DataExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9501EFA51C0E550100ABDE14 /* WKInterfaceController+DataExchange.m */; };
+		950997331C082FC400946AE0 /* SerializableGroupingRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 950997321C082FC400946AE0 /* SerializableGroupingRepository.m */; };
+		950997361C08337200946AE0 /* SerializableWordRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 950997351C08337200946AE0 /* SerializableWordRepository.m */; };
+		950997391C08362100946AE0 /* GroupingRepositoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 950997381C08362100946AE0 /* GroupingRepositoryFactory.m */; };
+		9509973C1C0836D600946AE0 /* MockGroupingRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 9509973B1C0836D600946AE0 /* MockGroupingRepository.m */; };
+		9509973F1C0837E500946AE0 /* WordRepositoryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9509973E1C0837E500946AE0 /* WordRepositoryFactory.m */; };
+		950997421C08382E00946AE0 /* MockWordRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 950997411C08382E00946AE0 /* MockWordRepository.m */; };
+		95116A2C1C71E7D5009F7816 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 95116A2A1C71DAB7009F7816 /* Constants.m */; };
+		95116A2F1C71EB81009F7816 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 95116A2A1C71DAB7009F7816 /* Constants.m */; };
+		958AE3861C10FE0C0046A0FB /* WordInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958AE3851C10FE0C0046A0FB /* WordInterfaceController.m */; };
+		959F190C1C0FCE660027E51F /* RowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F190B1C0FCE660027E51F /* RowController.m */; };
+		959F19181C0FCE8C0027E51F /* EvoiceInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F190F1C0FCE8C0027E51F /* EvoiceInterfaceController.m */; };
+		959F19191C0FCE8C0027E51F /* EwordInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F19111C0FCE8C0027E51F /* EwordInterfaceController.m */; };
+		959F191A1C0FCE8C0027E51F /* FavoriteInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F19131C0FCE8C0027E51F /* FavoriteInterfaceController.m */; };
+		959F191B1C0FCE8C0027E51F /* GroupingInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F19151C0FCE8C0027E51F /* GroupingInterfaceController.m */; };
+		959F191C1C0FCE8C0027E51F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F19171C0FCE8C0027E51F /* InterfaceController.m */; };
+		959F191F1C0FD4D20027E51F /* ZoomInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 959F191E1C0FD4D20027E51F /* ZoomInterfaceController.m */; };
 		95F0C4C31BFFC4F900138859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4C21BFFC4F900138859 /* main.m */; };
-		95F0C4C61BFFC4F900138859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4C51BFFC4F900138859 /* AppDelegate.m */; };
-		95F0C4C91BFFC4F900138859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4C81BFFC4F900138859 /* ViewController.m */; };
 		95F0C4CC1BFFC4F900138859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4CA1BFFC4F900138859 /* Main.storyboard */; };
 		95F0C4CE1BFFC4F900138859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4CD1BFFC4F900138859 /* Assets.xcassets */; };
 		95F0C4D11BFFC4F900138859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4CF1BFFC4F900138859 /* LaunchScreen.storyboard */; };
@@ -17,10 +35,14 @@
 		95F0C4DC1BFFC4F900138859 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4DA1BFFC4F900138859 /* Interface.storyboard */; };
 		95F0C4DE1BFFC4F900138859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4DD1BFFC4F900138859 /* Assets.xcassets */; };
 		95F0C4E51BFFC4F900138859 /* EasyTalk WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 95F0C4E41BFFC4F900138859 /* EasyTalk WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		95F0C4ED1BFFC4F900138859 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4EC1BFFC4F900138859 /* InterfaceController.m */; };
 		95F0C4F01BFFC4F900138859 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4EF1BFFC4F900138859 /* ExtensionDelegate.m */; };
 		95F0C4F31BFFC4F900138859 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C4F21BFFC4F900138859 /* NotificationController.m */; };
 		95F0C4F51BFFC4F900138859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F0C4F41BFFC4F900138859 /* Assets.xcassets */; };
+		95F0C5051BFFC50800138859 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F0C5041BFFC50800138859 /* WatchConnectivity.framework */; };
+		95F0C50D1BFFC55C00138859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C50A1BFFC55C00138859 /* AppDelegate.m */; };
+		95F0C50E1BFFC55C00138859 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C50C1BFFC55C00138859 /* ViewController.m */; };
+		95F0C5261BFFC77D00138859 /* Grouping.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C5251BFFC77D00138859 /* Grouping.m */; };
+		95F0C52A1BFFC93F00138859 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F0C5291BFFC93F00138859 /* Word.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +88,48 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		60B6418F1C634CA400DA8ABA /* AddGroupingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGroupingViewController.h; sourceTree = "<group>"; };
+		60B641901C634CA400DA8ABA /* AddGroupingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGroupingViewController.m; sourceTree = "<group>"; };
+		60B641911C634CA400DA8ABA /* AddWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWordViewController.h; sourceTree = "<group>"; };
+		60B641921C634CA400DA8ABA /* AddWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddWordViewController.m; sourceTree = "<group>"; };
+		60B641931C634CA400DA8ABA /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		60B641941C634CA400DA8ABA /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		9501EFA11C0E3E5F00ABDE14 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9501EFA41C0E550100ABDE14 /* WKInterfaceController+DataExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKInterfaceController+DataExchange.h"; sourceTree = "<group>"; };
+		9501EFA51C0E550100ABDE14 /* WKInterfaceController+DataExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKInterfaceController+DataExchange.m"; sourceTree = "<group>"; };
+		950997301C082C6300946AE0 /* IWordRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWordRepository.h; sourceTree = "<group>"; };
+		950997311C082FC400946AE0 /* SerializableGroupingRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializableGroupingRepository.h; sourceTree = "<group>"; };
+		950997321C082FC400946AE0 /* SerializableGroupingRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializableGroupingRepository.m; sourceTree = "<group>"; };
+		950997341C08337200946AE0 /* SerializableWordRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializableWordRepository.h; sourceTree = "<group>"; };
+		950997351C08337200946AE0 /* SerializableWordRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializableWordRepository.m; sourceTree = "<group>"; };
+		950997371C08362100946AE0 /* GroupingRepositoryFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupingRepositoryFactory.h; sourceTree = "<group>"; };
+		950997381C08362100946AE0 /* GroupingRepositoryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupingRepositoryFactory.m; sourceTree = "<group>"; };
+		9509973A1C0836D600946AE0 /* MockGroupingRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockGroupingRepository.h; sourceTree = "<group>"; };
+		9509973B1C0836D600946AE0 /* MockGroupingRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockGroupingRepository.m; sourceTree = "<group>"; };
+		9509973D1C0837E500946AE0 /* WordRepositoryFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordRepositoryFactory.h; sourceTree = "<group>"; };
+		9509973E1C0837E500946AE0 /* WordRepositoryFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordRepositoryFactory.m; sourceTree = "<group>"; };
+		950997401C08382E00946AE0 /* MockWordRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockWordRepository.h; sourceTree = "<group>"; };
+		950997411C08382E00946AE0 /* MockWordRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockWordRepository.m; sourceTree = "<group>"; };
+		95116A291C71DAB7009F7816 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		95116A2A1C71DAB7009F7816 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		958AE3841C10FE0C0046A0FB /* WordInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordInterfaceController.h; sourceTree = "<group>"; };
+		958AE3851C10FE0C0046A0FB /* WordInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordInterfaceController.m; sourceTree = "<group>"; };
+		959F190A1C0FCE660027E51F /* RowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowController.h; sourceTree = "<group>"; };
+		959F190B1C0FCE660027E51F /* RowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowController.m; sourceTree = "<group>"; };
+		959F190E1C0FCE8C0027E51F /* EvoiceInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvoiceInterfaceController.h; sourceTree = "<group>"; };
+		959F190F1C0FCE8C0027E51F /* EvoiceInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvoiceInterfaceController.m; sourceTree = "<group>"; };
+		959F19101C0FCE8C0027E51F /* EwordInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EwordInterfaceController.h; sourceTree = "<group>"; };
+		959F19111C0FCE8C0027E51F /* EwordInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EwordInterfaceController.m; sourceTree = "<group>"; };
+		959F19121C0FCE8C0027E51F /* FavoriteInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteInterfaceController.h; sourceTree = "<group>"; };
+		959F19131C0FCE8C0027E51F /* FavoriteInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteInterfaceController.m; sourceTree = "<group>"; };
+		959F19141C0FCE8C0027E51F /* GroupingInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupingInterfaceController.h; sourceTree = "<group>"; };
+		959F19151C0FCE8C0027E51F /* GroupingInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupingInterfaceController.m; sourceTree = "<group>"; };
+		959F19161C0FCE8C0027E51F /* InterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		959F19171C0FCE8C0027E51F /* InterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		959F191D1C0FD4D20027E51F /* ZoomInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomInterfaceController.h; sourceTree = "<group>"; };
+		959F191E1C0FD4D20027E51F /* ZoomInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomInterfaceController.m; sourceTree = "<group>"; };
 		95F0C4BE1BFFC4F900138859 /* EasyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F0C4C21BFFC4F900138859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		95F0C4C41BFFC4F900138859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		95F0C4C51BFFC4F900138859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		95F0C4C71BFFC4F900138859 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		95F0C4C81BFFC4F900138859 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		95F0C4CB1BFFC4F900138859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95F0C4CD1BFFC4F900138859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F0C4D01BFFC4F900138859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,14 +140,22 @@
 		95F0C4DF1BFFC4F900138859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95F0C4E41BFFC4F900138859 /* EasyTalk WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EasyTalk WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F0C4EA1BFFC4F900138859 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		95F0C4EB1BFFC4F900138859 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		95F0C4EC1BFFC4F900138859 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
 		95F0C4EE1BFFC4F900138859 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
 		95F0C4EF1BFFC4F900138859 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		95F0C4F11BFFC4F900138859 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
 		95F0C4F21BFFC4F900138859 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		95F0C4F41BFFC4F900138859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F0C4F61BFFC4F900138859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F0C5041BFFC50800138859 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		95F0C5091BFFC55C00138859 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95F0C50A1BFFC55C00138859 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95F0C50B1BFFC55C00138859 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95F0C50C1BFFC55C00138859 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95F0C5241BFFC77D00138859 /* Grouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grouping.h; sourceTree = "<group>"; };
+		95F0C5251BFFC77D00138859 /* Grouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grouping.m; sourceTree = "<group>"; };
+		95F0C5271BFFC87000138859 /* IGroupingRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGroupingRepository.h; sourceTree = "<group>"; };
+		95F0C5281BFFC93F00138859 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		95F0C5291BFFC93F00138859 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F0C5051BFFC50800138859 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,9 +177,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9501EFA31C0E54EA00ABDE14 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9501EFA41C0E550100ABDE14 /* WKInterfaceController+DataExchange.h */,
+				9501EFA51C0E550100ABDE14 /* WKInterfaceController+DataExchange.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		95116A281C71DAA0009F7816 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				95116A291C71DAB7009F7816 /* Constants.h */,
+				95116A2A1C71DAB7009F7816 /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		959F19091C0FCE660027E51F /* RowController */ = {
+			isa = PBXGroup;
+			children = (
+				959F190A1C0FCE660027E51F /* RowController.h */,
+				959F190B1C0FCE660027E51F /* RowController.m */,
+			);
+			path = RowController;
+			sourceTree = "<group>";
+		};
+		959F190D1C0FCE8C0027E51F /* InterfaceController */ = {
+			isa = PBXGroup;
+			children = (
+				959F190E1C0FCE8C0027E51F /* EvoiceInterfaceController.h */,
+				959F190F1C0FCE8C0027E51F /* EvoiceInterfaceController.m */,
+				959F19101C0FCE8C0027E51F /* EwordInterfaceController.h */,
+				959F19111C0FCE8C0027E51F /* EwordInterfaceController.m */,
+				959F19121C0FCE8C0027E51F /* FavoriteInterfaceController.h */,
+				959F19131C0FCE8C0027E51F /* FavoriteInterfaceController.m */,
+				959F19141C0FCE8C0027E51F /* GroupingInterfaceController.h */,
+				959F19151C0FCE8C0027E51F /* GroupingInterfaceController.m */,
+				958AE3841C10FE0C0046A0FB /* WordInterfaceController.h */,
+				958AE3851C10FE0C0046A0FB /* WordInterfaceController.m */,
+				959F19161C0FCE8C0027E51F /* InterfaceController.h */,
+				959F19171C0FCE8C0027E51F /* InterfaceController.m */,
+				959F191D1C0FD4D20027E51F /* ZoomInterfaceController.h */,
+				959F191E1C0FD4D20027E51F /* ZoomInterfaceController.m */,
+			);
+			path = InterfaceController;
+			sourceTree = "<group>";
+		};
 		95F0C4B51BFFC4F900138859 = {
 			isa = PBXGroup;
 			children = (
+				95F0C5041BFFC50800138859 /* WatchConnectivity.framework */,
 				95F0C4C01BFFC4F900138859 /* EasyTalk */,
 				95F0C4D91BFFC4F900138859 /* EasyTalk WatchKit App */,
 				95F0C4E81BFFC4F900138859 /* EasyTalk WatchKit Extension */,
@@ -133,10 +249,11 @@
 		95F0C4C01BFFC4F900138859 /* EasyTalk */ = {
 			isa = PBXGroup;
 			children = (
-				95F0C4C41BFFC4F900138859 /* AppDelegate.h */,
-				95F0C4C51BFFC4F900138859 /* AppDelegate.m */,
-				95F0C4C71BFFC4F900138859 /* ViewController.h */,
-				95F0C4C81BFFC4F900138859 /* ViewController.m */,
+				9501EFA11C0E3E5F00ABDE14 /* main.m */,
+				95116A281C71DAA0009F7816 /* Constants */,
+				95F0C5081BFFC55C00138859 /* Application */,
+				95F0C50F1BFFC60000138859 /* Domain */,
+				95F0C5131BFFC60600138859 /* Platform */,
 				95F0C4CA1BFFC4F900138859 /* Main.storyboard */,
 				95F0C4CD1BFFC4F900138859 /* Assets.xcassets */,
 				95F0C4CF1BFFC4F900138859 /* LaunchScreen.storyboard */,
@@ -167,8 +284,9 @@
 		95F0C4E81BFFC4F900138859 /* EasyTalk WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				95F0C4EB1BFFC4F900138859 /* InterfaceController.h */,
-				95F0C4EC1BFFC4F900138859 /* InterfaceController.m */,
+				9501EFA31C0E54EA00ABDE14 /* Category */,
+				959F19091C0FCE660027E51F /* RowController */,
+				959F190D1C0FCE8C0027E51F /* InterfaceController */,
 				95F0C4EE1BFFC4F900138859 /* ExtensionDelegate.h */,
 				95F0C4EF1BFFC4F900138859 /* ExtensionDelegate.m */,
 				95F0C4F11BFFC4F900138859 /* NotificationController.h */,
@@ -186,6 +304,175 @@
 				95F0C4EA1BFFC4F900138859 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95F0C5081BFFC55C00138859 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				60B6418F1C634CA400DA8ABA /* AddGroupingViewController.h */,
+				60B641901C634CA400DA8ABA /* AddGroupingViewController.m */,
+				60B641911C634CA400DA8ABA /* AddWordViewController.h */,
+				60B641921C634CA400DA8ABA /* AddWordViewController.m */,
+				60B641931C634CA400DA8ABA /* FavoriteViewController.h */,
+				60B641941C634CA400DA8ABA /* FavoriteViewController.m */,
+				95F0C5091BFFC55C00138859 /* AppDelegate.h */,
+				95F0C50A1BFFC55C00138859 /* AppDelegate.m */,
+				95F0C50B1BFFC55C00138859 /* ViewController.h */,
+				95F0C50C1BFFC55C00138859 /* ViewController.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		95F0C50F1BFFC60000138859 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5101BFFC60000138859 /* Theme */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		95F0C5101BFFC60000138859 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5111BFFC60000138859 /* Grouping */,
+				95F0C5121BFFC60000138859 /* Word */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		95F0C5111BFFC60000138859 /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5241BFFC77D00138859 /* Grouping.h */,
+				95F0C5251BFFC77D00138859 /* Grouping.m */,
+				95F0C5271BFFC87000138859 /* IGroupingRepository.h */,
+			);
+			path = Grouping;
+			sourceTree = "<group>";
+		};
+		95F0C5121BFFC60000138859 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5281BFFC93F00138859 /* Word.h */,
+				95F0C5291BFFC93F00138859 /* Word.m */,
+				950997301C082C6300946AE0 /* IWordRepository.h */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		95F0C5131BFFC60600138859 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5141BFFC60600138859 /* Factory */,
+				95F0C5181BFFC60600138859 /* Mock */,
+				95F0C51C1BFFC60600138859 /* Serialization */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		95F0C5141BFFC60600138859 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5151BFFC60600138859 /* Theme */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		95F0C5151BFFC60600138859 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5161BFFC60600138859 /* Grouping */,
+				95F0C5171BFFC60600138859 /* Word */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		95F0C5161BFFC60600138859 /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				950997371C08362100946AE0 /* GroupingRepositoryFactory.h */,
+				950997381C08362100946AE0 /* GroupingRepositoryFactory.m */,
+			);
+			path = Grouping;
+			sourceTree = "<group>";
+		};
+		95F0C5171BFFC60600138859 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				9509973D1C0837E500946AE0 /* WordRepositoryFactory.h */,
+				9509973E1C0837E500946AE0 /* WordRepositoryFactory.m */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		95F0C5181BFFC60600138859 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C5191BFFC60600138859 /* Theme */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		95F0C5191BFFC60600138859 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C51A1BFFC60600138859 /* Grouping */,
+				95F0C51B1BFFC60600138859 /* Word */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		95F0C51A1BFFC60600138859 /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				9509973A1C0836D600946AE0 /* MockGroupingRepository.h */,
+				9509973B1C0836D600946AE0 /* MockGroupingRepository.m */,
+			);
+			path = Grouping;
+			sourceTree = "<group>";
+		};
+		95F0C51B1BFFC60600138859 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				950997401C08382E00946AE0 /* MockWordRepository.h */,
+				950997411C08382E00946AE0 /* MockWordRepository.m */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		95F0C51C1BFFC60600138859 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C51D1BFFC60600138859 /* Theme */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		95F0C51D1BFFC60600138859 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				95F0C51E1BFFC60600138859 /* Grouping */,
+				95F0C51F1BFFC60600138859 /* Word */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		95F0C51E1BFFC60600138859 /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				950997311C082FC400946AE0 /* SerializableGroupingRepository.h */,
+				950997321C082FC400946AE0 /* SerializableGroupingRepository.m */,
+			);
+			path = Grouping;
+			sourceTree = "<group>";
+		};
+		95F0C51F1BFFC60600138859 /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				950997341C08337200946AE0 /* SerializableWordRepository.h */,
+				950997351C08337200946AE0 /* SerializableWordRepository.m */,
+			);
+			path = Word;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,9 +606,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F0C4C91BFFC4F900138859 /* ViewController.m in Sources */,
-				95F0C4C61BFFC4F900138859 /* AppDelegate.m in Sources */,
+				95116A2C1C71E7D5009F7816 /* Constants.m in Sources */,
+				60B641971C634CA400DA8ABA /* FavoriteViewController.m in Sources */,
+				60B641961C634CA400DA8ABA /* AddWordViewController.m in Sources */,
 				95F0C4C31BFFC4F900138859 /* main.m in Sources */,
+				9509973C1C0836D600946AE0 /* MockGroupingRepository.m in Sources */,
+				950997361C08337200946AE0 /* SerializableWordRepository.m in Sources */,
+				95F0C50E1BFFC55C00138859 /* ViewController.m in Sources */,
+				9509973F1C0837E500946AE0 /* WordRepositoryFactory.m in Sources */,
+				60B641951C634CA400DA8ABA /* AddGroupingViewController.m in Sources */,
+				950997391C08362100946AE0 /* GroupingRepositoryFactory.m in Sources */,
+				95F0C5261BFFC77D00138859 /* Grouping.m in Sources */,
+				95F0C50D1BFFC55C00138859 /* AppDelegate.m in Sources */,
+				950997421C08382E00946AE0 /* MockWordRepository.m in Sources */,
+				95F0C52A1BFFC93F00138859 /* Word.m in Sources */,
+				950997331C082FC400946AE0 /* SerializableGroupingRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,9 +628,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95116A2F1C71EB81009F7816 /* Constants.m in Sources */,
+				959F191B1C0FCE8C0027E51F /* GroupingInterfaceController.m in Sources */,
 				95F0C4F01BFFC4F900138859 /* ExtensionDelegate.m in Sources */,
-				95F0C4ED1BFFC4F900138859 /* InterfaceController.m in Sources */,
+				958AE3861C10FE0C0046A0FB /* WordInterfaceController.m in Sources */,
+				959F191F1C0FD4D20027E51F /* ZoomInterfaceController.m in Sources */,
+				959F19191C0FCE8C0027E51F /* EwordInterfaceController.m in Sources */,
+				9501EFA61C0E550100ABDE14 /* WKInterfaceController+DataExchange.m in Sources */,
+				959F191C1C0FCE8C0027E51F /* InterfaceController.m in Sources */,
 				95F0C4F31BFFC4F900138859 /* NotificationController.m in Sources */,
+				959F190C1C0FCE660027E51F /* RowController.m in Sources */,
+				959F19181C0FCE8C0027E51F /* EvoiceInterfaceController.m in Sources */,
+				959F191A1C0FCE8C0027E51F /* FavoriteInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +867,7 @@
 				95F0C4FB1BFFC4F900138859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95F0C4FD1BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +876,7 @@
 				95F0C4FF1BFFC4F900138859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95F0C5011BFFC4F900138859 /* Build configuration list for PBXNativeTarget "EasyTalk" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +885,7 @@
 				95F0C5031BFFC4F900138859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

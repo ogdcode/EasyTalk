@@ -6,24 +6,22 @@
 //  Copyright © 2015 Chips&Chips. All rights reserved.
 //
 
+#import "WKInterfaceController+DataExchange.h"
 #import "InterfaceController.h"
-
+#import "Constants.h"
 
 @interface InterfaceController()
 
 @end
 
-
 @implementation InterfaceController
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-
-    // Configure interface objects here.
+    [super sendMessageCode:START];
 }
 
 - (void)willActivate {
-    // This method is called when watch view controller is about to be visible to user
     [super willActivate];
 }
 
@@ -31,6 +29,19 @@
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
 }
+
+- (IBAction)onTouchEVoice {
+    [self pushControllerWithName:EVOICTRL context:nil];
+}
+
+- (IBAction)onTouchEWord {
+    [self pushControllerWithName:EWRDCTRL context:nil];
+}
+
+- (IBAction)onTouchHelp {
+    [self pushControllerWithName:HELPCTRL context:nil];
+}
+
 
 @end
 

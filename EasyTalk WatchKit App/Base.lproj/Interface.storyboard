@@ -1,16 +1,170 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider=""/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="SCK-7X-Bjj">
+                            <items>
+                                <imageView width="0.40000000000000002" height="1" alignment="left" image="EasyIcons" id="L8N-BC-aXT"/>
+                                <label alignment="center" text="EasyTalk" id="zxQ-ty-oqR">
+                                    <fontDescription key="font" type="system" pointSize="21"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="9vO-in-hG5">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Evoice" id="jgS-el-4R2">
+                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                    <connections>
+                                        <action selector="onTouchEVoice" destination="AgC-eL-Hgc" id="FVf-Ye-WAg"/>
+                                    </connections>
+                                </button>
+                                <imageView width="0.29999999999999999" alignment="left" id="ar4-Jz-WUG"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="xa9-ig-d0A">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Eword" id="2s8-96-iOw">
+                                    <connections>
+                                        <action selector="onTouchEWord" destination="AgC-eL-Hgc" id="BOa-Pl-t4o"/>
+                                    </connections>
+                                </button>
+                                <imageView width="0.29999999999999999" alignment="left" id="0mU-0x-pjJ"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="lPw-cz-Jzi">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Help" id="XM4-v1-boj">
+                                    <connections>
+                                        <action selector="onTouchHelp" destination="AgC-eL-Hgc" id="JQS-Yo-j6I"/>
+                                    </connections>
+                                </button>
+                                <imageView width="0.29999999999999999" alignment="left" id="1Xy-Wm-cyo"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215686274503" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="-107" y="-50"/>
+        </scene>
+        <!--EvoiceController-->
+        <scene sceneID="I98-Uh-soK">
+            <objects>
+                <controller identifier="EvoiceController" id="BfG-9m-rXl" customClass="EvoiceInterfaceController">
+                    <items>
+                        <group width="1" alignment="center" verticalAlignment="center" id="v51-An-AKK">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Activer" id="pL4-qH-bWZ">
+                                    <connections>
+                                        <action selector="onTouchActivate" destination="BfG-9m-rXl" id="UVP-1n-jgh"/>
+                                    </connections>
+                                </button>
+                                <imageView width="0.29999999999999999" alignment="left" id="qZE-Ma-Aaq"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="100" y="-290"/>
+        </scene>
+        <!--EwordController-->
+        <scene sceneID="y47-Qf-0Hf">
+            <objects>
+                <controller identifier="EwordController" id="D4V-2H-Tdx" customClass="EwordInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="BDo-Qm-N1h">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Eword" id="WNP-S4-kNR"/>
+                                <imageView width="0.29999999999999999" alignment="right" id="KaT-Mb-apx"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="O3Z-f6-YMn">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Top 20" id="beD-OS-Cy7"/>
+                                <imageView width="0.29999999999999999" alignment="left" id="fmF-vE-s2T"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="19e-Vj-qtH">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Favoris" id="eGR-FL-7Xh">
+                                    <connections>
+                                        <action selector="onTouchFavorites" destination="D4V-2H-Tdx" id="km6-T3-2v0"/>
+                                    </connections>
+                                </button>
+                                <imageView width="0.29999999999999999" alignment="left" id="Nte-jK-ACG"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="eUt-ID-QJW">
+                            <items>
+                                <button width="0.69999999999999996" alignment="left" title="Catégories" id="D7M-Z2-Zfu">
+                                    <connections>
+                                        <action selector="onTouchGroupings" destination="D4V-2H-Tdx" id="gMY-P0-UJU"/>
+                                    </connections>
+                                </button>
+                                <imageView width="0.29999999999999999" alignment="left" id="EDw-bE-Tyq"/>
+                            </items>
+                        </group>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="140" y="-2"/>
+        </scene>
+        <!--FavoriteController-->
+        <scene sceneID="Vdd-Ex-OnN">
+            <objects>
+                <controller identifier="FavoriteController" id="caJ-qg-y72" customClass="FavoriteInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="Gjg-bN-r8O">
+                            <items>
+                                <imageView width="0.29999999999999999" alignment="right" id="pAZ-AV-FVe"/>
+                                <label alignment="left" verticalAlignment="center" text="Favoris" id="X8I-46-eW2"/>
+                            </items>
+                        </group>
+                        <table alignment="left" id="Cgx-wi-aFF">
+                            <items>
+                                <tableRow identifier="Row" id="Dzl-oc-7Bo" customClass="RowController">
+                                    <group key="rootItem" width="1" alignment="left" id="9or-vs-j8P">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="dkR-DI-GqA">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <imageView width="0.29999999999999999" alignment="right" verticalAlignment="center" id="ilA-jE-bpl"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowImage" destination="ilA-jE-bpl" id="q64-Oa-3LS"/>
+                                        <outlet property="rowLabel" destination="dkR-DI-GqA" id="cyq-7G-g6q"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="table" destination="Cgx-wi-aFF" id="vvg-eX-gUk"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="348" y="8"/>
+        </scene>
+        <!--HelpController-->
+        <scene sceneID="5W7-hq-jJy">
+            <objects>
+                <controller identifier="HelpController" id="0tB-3i-jC5">
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="79" y="332"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,9 +185,105 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider=""/>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--GroupingController-->
+        <scene sceneID="yfu-v7-DST">
+            <objects>
+                <controller identifier="GroupingController" id="9OE-7i-uhg" customClass="GroupingInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="JEC-0n-n5C">
+                            <items>
+                                <imageView width="0.29999999999999999" alignment="right" id="QZo-pt-2gT"/>
+                                <label alignment="left" verticalAlignment="center" text="Catégories" id="kZt-XB-6wV"/>
+                            </items>
+                        </group>
+                        <table alignment="left" id="366-IT-BQR">
+                            <items>
+                                <tableRow identifier="Row" id="waq-7k-ce3" customClass="RowController">
+                                    <group key="rootItem" width="1" alignment="left" id="xw1-DZ-4S6">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="Amo-G0-rac">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <imageView width="0.29999999999999999" alignment="right" verticalAlignment="center" id="t5o-Q7-KpL"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowImage" destination="t5o-Q7-KpL" id="fNM-xd-GqC"/>
+                                        <outlet property="rowLabel" destination="Amo-G0-rac" id="uX8-JF-hCl"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="table" destination="366-IT-BQR" id="Gin-E8-INe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="348" y="356"/>
+        </scene>
+        <!--WordController-->
+        <scene sceneID="uON-FJ-FpY">
+            <objects>
+                <controller identifier="WordController" id="nHi-CM-MFf" customClass="WordInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="SmL-JG-JN8">
+                            <items>
+                                <imageView width="0.29999999999999999" alignment="right" id="nWL-8h-CRY"/>
+                                <label alignment="left" verticalAlignment="center" text="Label" id="143-zn-vxM"/>
+                            </items>
+                        </group>
+                        <table alignment="left" id="dE5-NT-xx1">
+                            <items>
+                                <tableRow identifier="Row" id="mzG-o2-SJx" customClass="RowController">
+                                    <group key="rootItem" width="1" alignment="left" id="SEB-f2-C50">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="epT-QA-18G">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <imageView width="0.29999999999999999" alignment="right" id="Oew-fT-J8y"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="rowImage" destination="Oew-fT-J8y" id="Vqc-qE-SBt"/>
+                                        <outlet property="rowLabel" destination="epT-QA-18G" id="Pcw-tS-KBg"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="labelGrp" destination="143-zn-vxM" id="xDJ-Zq-9Gn"/>
+                        <outlet property="table" destination="dE5-NT-xx1" id="pPu-eH-oic"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="539" y="356"/>
+        </scene>
+        <!--ZoomController-->
+        <scene sceneID="gm5-vI-FdH">
+            <objects>
+                <controller identifier="ZoomController" id="tWd-pX-aYG" customClass="ZoomInterfaceController">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Label" id="hOm-KS-c2q">
+                            <fontDescription key="font" type="system" pointSize="26"/>
+                        </label>
+                        <imageView alignment="right" id="jEt-Pe-GDN"/>
+                        <imageView alignment="left" verticalAlignment="bottom" id="8Ch-mp-g3M"/>
+                    </items>
+                    <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="detailLabel" destination="hOm-KS-c2q" id="9P9-vC-ZrC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="775" y="211"/>
         </scene>
     </scenes>
 </document>

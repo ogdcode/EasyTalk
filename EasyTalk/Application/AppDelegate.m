@@ -6,17 +6,37 @@
 //  Copyright © 2015 Chips&Chips. All rights reserved.
 //
 
+#import <WatchConnectivity/WatchConnectivity.h>
+#import "GroupingRepositoryFactory.h"
+#import "WordRepositoryFactory.h"
 #import "AppDelegate.h"
+#import "Constants.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <WCSessionDelegate>
 
 @end
 
 @implementation AppDelegate
 
+@dynamic groupingRepository, wordRepository;
+
+- (id<IGroupingRepository>)groupingRepository
+{
+    return [[GroupingRepositoryFactory sharedInstance] groupingRepository];
+}
+
+- (id<IWordRepository>)wordRepository
+{
+    return [[WordRepositoryFactory sharedInstance] wordRepository];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    if ([WCSession class] && [WCSession isSupported]) {
+        WCSession *session = [WCSession defaultSession];
+        session.delegate = self;
+        [session activateSession];
+    }
     return YES;
 }
 
@@ -40,6 +60,16 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message
+{
+    if ([[message objectForKey:CODE] isEqualToString:START]) {
+        NSDictionary *completeList = [self.wordRepository combinedDictionarize];
+        if ([WCSession defaultSession].paired && [WCSession defaultSession].watchAppInstalled) {
+            [[WCSession defaultSession] transferUserInfo:completeList];
+        }
+    }
 }
 
 @end

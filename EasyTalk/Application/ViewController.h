@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IGroupingRepository.h"
+#import "IWordRepository.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, readonly) id<IGroupingRepository> groupingRepository;
+@property (nonatomic, readonly) id<IWordRepository> wordRepository;
 
 @end
 

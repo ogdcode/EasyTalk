@@ -11,4 +11,7 @@
 
 @interface InterfaceController : WKInterfaceController
 
+
+@property (strong, nonatomic) NSDictionary *userInfo;
+
 @end
