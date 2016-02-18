@@ -10,44 +10,47 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <group width="1" alignment="left" id="SCK-7X-Bjj">
+                        <group width="1" height="0.29999999999999999" alignment="left" id="SCK-7X-Bjj">
                             <items>
-                                <imageView width="0.40000000000000002" height="1" alignment="left" image="EasyIcons" id="L8N-BC-aXT"/>
-                                <label alignment="center" text="EasyTalk" id="zxQ-ty-oqR">
-                                    <fontDescription key="font" type="system" pointSize="21"/>
-                                </label>
+                                <imageView width="0.90000000000000002" height="1" alignment="center" verticalAlignment="center" image="icon_logo_white.png" contentMode="scaleAspectFit" id="L8N-BC-aXT"/>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="9vO-in-hG5">
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="7" id="9vO-in-hG5">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Evoice" id="jgS-el-4R2">
+                                <button width="0.5" height="0.29999999999999999" alignment="left" verticalAlignment="center" title="Evoice" id="jgS-el-4R2">
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" type="system" pointSize="15"/>
                                     <connections>
                                         <action selector="onTouchEVoice" destination="AgC-eL-Hgc" id="FVf-Ye-WAg"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" alignment="left" id="ar4-Jz-WUG"/>
+                                <imageView width="0.29999999999999999" height="0.59999999999999998" alignment="right" verticalAlignment="center" image="icon_micro.png" contentMode="scaleAspectFit" id="ar4-Jz-WUG"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
-                        <group width="1" alignment="left" id="xa9-ig-d0A">
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="43" id="xa9-ig-d0A">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Eword" id="2s8-96-iOw">
+                                <button width="0.69999999999999996" height="0.29999999999999999" alignment="left" verticalAlignment="center" title="Eword" id="2s8-96-iOw">
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="onTouchEWord" destination="AgC-eL-Hgc" id="BOa-Pl-t4o"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" alignment="left" id="0mU-0x-pjJ"/>
+                                <imageView width="0.20000000000000001" height="0.59999999999999998" alignment="center" verticalAlignment="center" image="icon_eword.png" contentMode="scaleAspectFit" id="0mU-0x-pjJ"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
-                        <group width="1" alignment="left" id="lPw-cz-Jzi">
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="57" id="lPw-cz-Jzi">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Help" id="XM4-v1-boj">
+                                <button width="0.69999999999999996" height="0.29999999999999999" alignment="left" verticalAlignment="center" title="Help" id="XM4-v1-boj">
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="onTouchHelp" destination="AgC-eL-Hgc" id="JQS-Yo-j6I"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" alignment="left" id="1Xy-Wm-cyo"/>
+                                <imageView width="0.20000000000000001" height="0.59999999999999998" alignment="center" verticalAlignment="center" image="icon_help.png" contentMode="scaleAspectFit" id="1Xy-Wm-cyo"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
                     </items>
                     <color key="backgroundColor" red="0.0" green="0.58039215686274503" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
@@ -60,73 +63,84 @@
             <objects>
                 <controller identifier="EvoiceController" id="BfG-9m-rXl" customClass="EvoiceInterfaceController">
                     <items>
-                        <group width="1" alignment="center" verticalAlignment="center" id="v51-An-AKK">
+                        <group width="1" height="0.29999999999999999" alignment="center" verticalAlignment="center" spacing="42" id="v51-An-AKK">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Activer" id="pL4-qH-bWZ">
+                                <button width="0.69999999999999996" alignment="left" verticalAlignment="center" title="Activer" id="pL4-qH-bWZ">
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="15"/>
                                     <connections>
                                         <action selector="onTouchActivate" destination="BfG-9m-rXl" id="UVP-1n-jgh"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" alignment="left" id="qZE-Ma-Aaq"/>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="left" verticalAlignment="center" image="icon_micro.png" contentMode="scaleAspectFit" id="qZE-Ma-Aaq"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
                     </items>
                     <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="100" y="-290"/>
+            <point key="canvasLocation" x="152" y="-290"/>
         </scene>
         <!--EwordController-->
         <scene sceneID="y47-Qf-0Hf">
             <objects>
                 <controller identifier="EwordController" id="D4V-2H-Tdx" customClass="EwordInterfaceController">
                     <items>
-                        <group width="1" alignment="left" id="BDo-Qm-N1h">
+                        <group width="0.90000000000000002" height="0.29999999999999999" alignment="center" verticalAlignment="center" id="BDo-Qm-N1h">
                             <items>
-                                <label alignment="left" verticalAlignment="center" text="Eword" id="WNP-S4-kNR"/>
-                                <imageView width="0.29999999999999999" alignment="right" id="KaT-Mb-apx"/>
+                                <label width="0.69999999999999996" height="0.29999999999999999" alignment="center" verticalAlignment="center" text="Eword" id="WNP-S4-kNR"/>
+                                <imageView width="0.29999999999999999" height="0.69999999999999996" alignment="right" verticalAlignment="center" image="icon_microbleu.png" contentMode="scaleAspectFit" id="KaT-Mb-apx"/>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="O3Z-f6-YMn">
+                        <group height="0.20000000000000001" alignment="center" verticalAlignment="center" id="O3Z-f6-YMn">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Top 20" id="beD-OS-Cy7"/>
-                                <imageView width="0.29999999999999999" alignment="left" id="fmF-vE-s2T"/>
+                                <button width="0.69999999999999996" height="0.29999999999999999" alignment="left" verticalAlignment="center" title="Top 20" id="beD-OS-Cy7">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="fmF-vE-s2T"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
-                        <group width="1" alignment="left" id="19e-Vj-qtH">
+                        <group height="0.20000000000000001" alignment="center" verticalAlignment="center" id="19e-Vj-qtH">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Favoris" id="eGR-FL-7Xh">
+                                <button width="0.69999999999999996" height="0.29999999999999999" alignment="left" verticalAlignment="center" title="Favoris" id="eGR-FL-7Xh">
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="onTouchFavorites" destination="D4V-2H-Tdx" id="km6-T3-2v0"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" alignment="left" id="Nte-jK-ACG"/>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="Nte-jK-ACG"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
-                        <group width="1" alignment="left" id="eUt-ID-QJW">
+                        <group height="0.20000000000000001" alignment="center" verticalAlignment="center" id="eUt-ID-QJW">
                             <items>
-                                <button width="0.69999999999999996" alignment="left" title="Catégories" id="D7M-Z2-Zfu">
+                                <button width="0.69999999999999996" height="0.29999999999999999" alignment="center" verticalAlignment="center" title="Catégories" id="D7M-Z2-Zfu">
+                                    <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="onTouchGroupings" destination="D4V-2H-Tdx" id="gMY-P0-UJU"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" alignment="left" id="EDw-bE-Tyq"/>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="EDw-bE-Tyq"/>
                             </items>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
                     </items>
                     <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="140" y="-2"/>
+            <point key="canvasLocation" x="140" y="-81.5"/>
         </scene>
         <!--FavoriteController-->
         <scene sceneID="Vdd-Ex-OnN">
             <objects>
                 <controller identifier="FavoriteController" id="caJ-qg-y72" customClass="FavoriteInterfaceController">
                     <items>
-                        <group width="1" alignment="left" id="Gjg-bN-r8O">
+                        <group width="1" height="0.29999999999999999" alignment="center" id="Gjg-bN-r8O">
                             <items>
-                                <imageView width="0.29999999999999999" alignment="right" id="pAZ-AV-FVe"/>
+                                <imageView width="0.29999999999999999" height="0.69999999999999996" alignment="right" verticalAlignment="center" image="icon_microbleu.png" contentMode="scaleAspectFit" id="pAZ-AV-FVe"/>
                                 <label alignment="left" verticalAlignment="center" text="Favoris" id="X8I-46-eW2"/>
                             </items>
                         </group>
@@ -138,8 +152,9 @@
                                             <label alignment="left" verticalAlignment="center" text="Label" id="dkR-DI-GqA">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
-                                            <imageView width="0.29999999999999999" alignment="right" verticalAlignment="center" id="ilA-jE-bpl"/>
+                                            <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="ilA-jE-bpl"/>
                                         </items>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="rowImage" destination="ilA-jE-bpl" id="q64-Oa-3LS"/>
@@ -155,7 +170,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="348" y="8"/>
+            <point key="canvasLocation" x="460" y="-13"/>
         </scene>
         <!--HelpController-->
         <scene sceneID="5W7-hq-jJy">
@@ -210,6 +225,7 @@
                                             </label>
                                             <imageView width="0.29999999999999999" alignment="right" verticalAlignment="center" id="t5o-Q7-KpL"/>
                                         </items>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="rowImage" destination="t5o-Q7-KpL" id="fNM-xd-GqC"/>
@@ -248,6 +264,7 @@
                                             </label>
                                             <imageView width="0.29999999999999999" alignment="right" id="Oew-fT-J8y"/>
                                         </items>
+                                        <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
                                     <connections>
                                         <outlet property="rowImage" destination="Oew-fT-J8y" id="Vqc-qE-SBt"/>
