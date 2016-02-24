@@ -19,6 +19,7 @@
 		950997421C08382E00946AE0 /* MockWordRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 950997411C08382E00946AE0 /* MockWordRepository.m */; };
 		95116A2C1C71E7D5009F7816 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 95116A2A1C71DAB7009F7816 /* Constants.m */; };
 		95116A2F1C71EB81009F7816 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 95116A2A1C71DAB7009F7816 /* Constants.m */; };
+		954A30FF1C7D3D0400A39452 /* icon_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 954A30FE1C7D3D0400A39452 /* icon_logo_white.png */; };
 		956AAEA21C75F52D007FD359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956AAEA11C75F52D007FD359 /* Main.storyboard */; };
 		956AAEA91C75F564007FD359 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 956AAEA41C75F564007FD359 /* README.md */; };
 		956AAEAA1C75F564007FD359 /* SFDisplay_ Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 956AAEA51C75F564007FD359 /* SFDisplay_ Regular.ttf */; };
@@ -146,6 +147,7 @@
 		950997411C08382E00946AE0 /* MockWordRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockWordRepository.m; sourceTree = "<group>"; };
 		95116A291C71DAB7009F7816 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		95116A2A1C71DAB7009F7816 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		954A30FE1C7D3D0400A39452 /* icon_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_logo_white.png; sourceTree = "<group>"; };
 		956AAEA11C75F52D007FD359 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		956AAEA41C75F564007FD359 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		956AAEA51C75F564007FD359 /* SFDisplay_ Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay_ Regular.ttf"; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 		956AAEC51C75F571007FD359 /* Icons iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				954A30FE1C7D3D0400A39452 /* icon_logo_white.png */,
 				956AAEC61C75F571007FD359 /* icon_category.ai */,
 				956AAEC71C75F571007FD359 /* icon_category.png */,
 				956AAEC81C75F571007FD359 /* icon_eword.png */,
@@ -734,6 +737,7 @@
 				956AAEBF1C75F56B007FD359 /* Screen3.2_Eword.png.docx in Resources */,
 				956AAED81C75F571007FD359 /* icon_category.ai in Resources */,
 				956AAEAD1C75F564007FD359 /* SFDisplay_Thin.ttf in Resources */,
+				954A30FF1C7D3D0400A39452 /* icon_logo_white.png in Resources */,
 				95F0C4CE1BFFC4F900138859 /* Assets.xcassets in Resources */,
 				956AAEDF1C75F571007FD359 /* icon_help.png in Resources */,
 				956AAEE51C75F571007FD359 /* icon_top.ai in Resources */,

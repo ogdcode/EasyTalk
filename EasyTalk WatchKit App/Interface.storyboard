@@ -80,7 +80,7 @@
                     <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="152" y="-290"/>
+            <point key="canvasLocation" x="84" y="-302"/>
         </scene>
         <!--EwordController-->
         <scene sceneID="y47-Qf-0Hf">
@@ -99,7 +99,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </button>
-                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="fmF-vE-s2T"/>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_top.png" contentMode="scaleAspectFit" id="fmF-vE-s2T"/>
                             </items>
                             <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
@@ -111,7 +111,7 @@
                                         <action selector="onTouchFavorites" destination="D4V-2H-Tdx" id="km6-T3-2v0"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="Nte-jK-ACG"/>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris.png" contentMode="scaleAspectFit" id="Nte-jK-ACG"/>
                             </items>
                             <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
@@ -123,7 +123,7 @@
                                         <action selector="onTouchGroupings" destination="D4V-2H-Tdx" id="gMY-P0-UJU"/>
                                     </connections>
                                 </button>
-                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="EDw-bE-Tyq"/>
+                                <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_category.png" contentMode="scaleAspectFit" id="EDw-bE-Tyq"/>
                             </items>
                             <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
@@ -131,7 +131,7 @@
                     <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="140" y="-81.5"/>
+            <point key="canvasLocation" x="84" y="-49"/>
         </scene>
         <!--FavoriteController-->
         <scene sceneID="Vdd-Ex-OnN">
@@ -170,7 +170,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="460" y="-13"/>
+            <point key="canvasLocation" x="281" y="-49"/>
         </scene>
         <!--HelpController-->
         <scene sceneID="5W7-hq-jJy">
@@ -179,7 +179,7 @@
                     <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="79" y="332"/>
+            <point key="canvasLocation" x="84" y="210"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -209,9 +209,9 @@
             <objects>
                 <controller identifier="GroupingController" id="9OE-7i-uhg" customClass="GroupingInterfaceController">
                     <items>
-                        <group width="1" alignment="left" id="JEC-0n-n5C">
+                        <group width="1" height="0.29999999999999999" alignment="left" id="JEC-0n-n5C">
                             <items>
-                                <imageView width="0.29999999999999999" alignment="right" id="QZo-pt-2gT"/>
+                                <imageView width="0.29999999999999999" height="0.69999999999999996" alignment="right" verticalAlignment="center" image="icon_microbleu.png" contentMode="scaleAspectFit" id="QZo-pt-2gT"/>
                                 <label alignment="left" verticalAlignment="center" text="Catégories" id="kZt-XB-6wV"/>
                             </items>
                         </group>
@@ -223,7 +223,7 @@
                                             <label alignment="left" verticalAlignment="center" text="Label" id="Amo-G0-rac">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
-                                            <imageView width="0.29999999999999999" alignment="right" verticalAlignment="center" id="t5o-Q7-KpL"/>
+                                            <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="t5o-Q7-KpL"/>
                                         </items>
                                         <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
@@ -241,16 +241,16 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="348" y="356"/>
+            <point key="canvasLocation" x="281" y="210"/>
         </scene>
         <!--WordController-->
         <scene sceneID="uON-FJ-FpY">
             <objects>
                 <controller identifier="WordController" id="nHi-CM-MFf" customClass="WordInterfaceController">
                     <items>
-                        <group width="1" alignment="left" id="SmL-JG-JN8">
+                        <group width="1" height="0.29999999999999999" alignment="left" id="SmL-JG-JN8">
                             <items>
-                                <imageView width="0.29999999999999999" alignment="right" id="nWL-8h-CRY"/>
+                                <imageView width="0.29999999999999999" height="0.69999999999999996" alignment="right" verticalAlignment="center" image="icon_microbleu.png" contentMode="scaleAspectFit" id="nWL-8h-CRY"/>
                                 <label alignment="left" verticalAlignment="center" text="Label" id="143-zn-vxM"/>
                             </items>
                         </group>
@@ -262,7 +262,7 @@
                                             <label alignment="left" verticalAlignment="center" text="Label" id="epT-QA-18G">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
-                                            <imageView width="0.29999999999999999" alignment="right" id="Oew-fT-J8y"/>
+                                            <imageView width="0.29999999999999999" height="0.5" alignment="right" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="Oew-fT-J8y"/>
                                         </items>
                                         <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </group>
@@ -281,7 +281,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="539" y="356"/>
+            <point key="canvasLocation" x="485" y="210"/>
         </scene>
         <!--ZoomController-->
         <scene sceneID="gm5-vI-FdH">
@@ -291,8 +291,8 @@
                         <label alignment="center" verticalAlignment="center" text="Label" id="hOm-KS-c2q">
                             <fontDescription key="font" type="system" pointSize="26"/>
                         </label>
-                        <imageView alignment="right" id="jEt-Pe-GDN"/>
-                        <imageView alignment="left" verticalAlignment="bottom" id="8Ch-mp-g3M"/>
+                        <imageView width="0.29999999999999999" height="0.29999999999999999" alignment="center" image="icon_microbleu.png" contentMode="scaleAspectFit" id="jEt-Pe-GDN"/>
+                        <imageView width="0.20000000000000001" height="0.20000000000000001" alignment="center" verticalAlignment="center" image="icon_favoris_empty.png" contentMode="scaleAspectFit" id="8Ch-mp-g3M"/>
                     </items>
                     <color key="backgroundColor" red="0.0" green="0.58039215690000001" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
@@ -300,7 +300,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="775" y="211"/>
+            <point key="canvasLocation" x="682" y="62"/>
         </scene>
     </scenes>
 </document>
